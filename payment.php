@@ -19,7 +19,7 @@ if (strlen($_SESSION['id']==0)) {
     <meta name="author" content="">
 
     <title>Payment </title>
-    
+    >>>>>>>>>>>>>CSS link sheet<<<<<<<<<<<<<<<<<<
     <link href="css/shopping-cart-style.css" type="text/css" rel="stylesheet" />
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/heroic-features.css" rel="stylesheet">
