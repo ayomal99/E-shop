@@ -41,7 +41,7 @@ body {
   display: flex;
   -ms-flex-wrap: wrap; 
   flex-wrap: wrap;
-  margin: 0 -16px;
+  margin: auto -16px;
   margin-top : 10px;
 }
 
