@@ -6,7 +6,7 @@ if (strlen($_SESSION['id']==0)) {
     
    
     } 
-
+>>>>>>>>>>>>>>>>>>End od Db connection<<<<<<<<<<<<<<<<<<<<<<<<<
     
 ?>
 <!DOCTYPE html>
@@ -24,7 +24,7 @@ if (strlen($_SESSION['id']==0)) {
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/heroic-features.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
+>>>>>>>>>>>>>>CSS style sheet<<<<<<<<<<<<<<<<
     <style>
 body {
   font-family: Arial;
@@ -134,7 +134,7 @@ span.price {
 </style>
 </head>
 <body>
-
+>>>>>>>>>>>>>>Nav Bar<<<<<<<<<<<<<<
 <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
         <div class="container">
             <div class="navbar-header">
@@ -219,6 +219,7 @@ span.price {
           </div>
           
         </div>
+        >>>>>>>>>>>>>>>>>>>>>Check Box<<<<<<<<<<<<<<<<<<
         <label>
           <input type="checkbox" checked="checked" name="sameadr"> Shipping address same as billing
         </label>
