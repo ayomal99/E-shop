@@ -24,7 +24,7 @@ if($msg)
 
 // Code for login 
 
-if(isset($_POST['login']))
+if(isset($_POST['Singin']))
 {
 	
 $password=$_POST['password'];
@@ -45,7 +45,7 @@ exit();
 }
 else
 {
-echo "<script>alert('Invalid username or password');</script>";
+echo "<script>alert('Invalid Email or password');</script>";
 $extra="index.php";
 $host  = $_SERVER['HTTP_HOST'];
 $uri  = rtrim(dirname($_SERVER['PHP_SELF']),'/\\');
