@@ -6,7 +6,7 @@ if (strlen($_SESSION['id']==0)) {
      
     } 
 
-    
+   >>>>Db connection<<<<
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -25,6 +25,7 @@ if (strlen($_SESSION['id']==0)) {
     <link href="css/heroic-features.css" rel="stylesheet">
    
 </head>
+	>>>End Of Body<<<
 <body>
     <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
         <div class="container">
@@ -43,7 +44,7 @@ if (strlen($_SESSION['id']==0)) {
                         <a href="#"><?php echo $_SESSION['name'];?></a>
                     </li>
                     <li>
-                        <a href="logout.php">Logout</a>
+                        <a href="logout.php">Singout</a>
                     </li>
                   
                 </ul>
