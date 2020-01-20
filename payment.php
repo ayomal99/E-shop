@@ -6,7 +6,7 @@ if (strlen($_SESSION['id']==0)) {
     
    
     } 
->>>>>>>>>>>>>>>>>>End od Db connection<<<<<<<<<<<<<<<<<<<<<<<<<
+>>>>>>>>>>>>>>>>>>End of Db connection<<<<<<<<<<<<<<<<<<<<<<<<<
     
 ?>
 <!DOCTYPE html>
