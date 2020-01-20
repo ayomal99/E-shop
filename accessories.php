@@ -47,7 +47,7 @@ if (strlen($_SESSION['id']==0)) {
                         <a href="welcome.php">Home</a>
                     </li>
                     <li>
-                        <a href="logout.php">Logout</a>
+                        <a href="logout.php">Singout</a>
                     </li>
                   
                 </ul>
