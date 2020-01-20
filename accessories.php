@@ -8,6 +8,7 @@ if (strlen($_SESSION['id']==0)) {
     $db_handle = new DBController();
 
 ?>
+>>>>>>>>>>>>>>End of db connectiom<<<<<<<<
 <!DOCTYPE html>
 <html lang="en">
 
@@ -18,7 +19,7 @@ if (strlen($_SESSION['id']==0)) {
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
     <meta name="author" content="">
-
+>>>>>>>>>>>>>End of meta<<<<<<<
     <title>Accessories </title>
     <link href="css/shopping-cart-style.css" type="text/css" rel="stylesheet" />
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -87,6 +88,6 @@ if (strlen($_SESSION['id']==0)) {
     <script src="js/jquery.js"></script>
     <script src="js/bootstrap.min.js"></script>
 </body>
-
+>>>>>>End of JS<<<<<<<<<
 </html>
 <?php } ?>
