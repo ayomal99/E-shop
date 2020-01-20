@@ -8,6 +8,7 @@ if (strlen($_SESSION['id']==0)) {
     $db_handle = new DBController();
 
 ?>
+>>>>>End of DB connection<<<<
 <!DOCTYPE html>
 <html lang="en">
 
@@ -84,6 +85,7 @@ if (strlen($_SESSION['id']==0)) {
 </div>
     <script src="js/jquery.js"></script>
     <script src="js/bootstrap.min.js"></script>
+	>>JS<<
 </body>
 
 </html>
