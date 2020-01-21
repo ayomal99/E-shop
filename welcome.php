@@ -55,6 +55,7 @@ if (strlen($_SESSION['id']==0)) {
  </div>
  <?php include 'imageslider.php';?>
  <?php include 'shoppingcart.php';?>
+	<!--heading-->
  <div id="product-grid">
 	<div class="txt-heading">Products</div>
 	
