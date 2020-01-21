@@ -6,12 +6,14 @@ if (strlen($_SESSION['id']==0)) {
     
    
     } 
+
 >>>>>>>>>>>>>>>>>>End of Db connection<<<<<<<<<<<<<<<<<<<<<<<<<
     
 ?>
 <!DOCTYPE html>
 <html>
 <head>
+  <!--content-->
 <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
