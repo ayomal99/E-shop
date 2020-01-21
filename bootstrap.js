@@ -4,6 +4,8 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
 
+
+
 if (typeof jQuery === 'undefined') {
   throw new Error('Bootstrap\'s JavaScript requires jQuery')
 }
@@ -166,6 +168,7 @@ if (typeof jQuery === 'undefined') {
 
   // ALERT DATA-API
   // ==============
+  //insert alert
 
   $(document).on('click.bs.alert.data-api', dismiss, Alert.prototype.close)
 
@@ -243,6 +246,7 @@ if (typeof jQuery === 'undefined') {
 
   // BUTTON PLUGIN DEFINITION
   // ========================
+  //plugin
 
   function Plugin(option) {
     return this.each(function () {
