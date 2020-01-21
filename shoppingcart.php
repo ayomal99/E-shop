@@ -3,7 +3,7 @@
 if (strlen($_SESSION['id']==0)) {
   header('location:logout.php');
   } else{
-
+	>>>database connection<<<	
     if(!empty($_GET["action"])) {
     switch($_GET["action"]) {
         case "add":
@@ -47,7 +47,7 @@ if (strlen($_SESSION['id']==0)) {
     }
     } 
 
-    
+   >>>html design part<<< 
 ?>
 <!DOCTYPE html>
 <html lang="en">
